@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Atoms" representedClassName=".Atoms" syncable="YES" codeGenerationType="category">
+        <attribute name="atom_Id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="coor_X" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="coor_Y" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="coor_Z" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="links" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Links" inverseName="atom" inverseEntity="Links" syncable="YES"/>
+        <relationship name="molecule" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Molecules" inverseName="atom" inverseEntity="Molecules" syncable="YES"/>
+    </entity>
+    <entity name="Links" representedClassName=".Links" syncable="YES" codeGenerationType="category">
+        <attribute name="atome1_ID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="atome2_ID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="atom" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Atoms" inverseName="links" inverseEntity="Atoms" syncable="YES"/>
+        <relationship name="molecule" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Molecules" inverseName="links" inverseEntity="Molecules" syncable="YES"/>
+    </entity>
+    <entity name="Molecules" representedClassName=".Molecules" syncable="YES" codeGenerationType="category">
+        <attribute name="ligand_Id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="Transformable" customClassName="[Links]" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="atom" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Atoms" inverseName="molecule" inverseEntity="Atoms" syncable="YES"/>
+        <relationship name="links" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Links" inverseName="molecule" inverseEntity="Links" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Atoms" positionX="252" positionY="99" width="128" height="165"/>
+        <element name="Links" positionX="655" positionY="117" width="128" height="105"/>
+        <element name="Molecules" positionX="441" positionY="-109" width="144" height="120"/>
+    </elements>
+</model>

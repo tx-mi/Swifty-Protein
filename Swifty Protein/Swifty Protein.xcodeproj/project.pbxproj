@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220B2B5422C8B3650008EEAB /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220B2B5322C8B3650008EEAB /* SpinnerView.swift */; };
+		220C62B022BE72EF002F2FBC /* ligands.txt in Resources */ = {isa = PBXBuildFile; fileRef = 220C62AF22BE72EF002F2FBC /* ligands.txt */; };
+		220C62B222BE7D17002F2FBC /* ProteinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C62B122BE7D17002F2FBC /* ProteinTableViewCell.swift */; };
+		22762F1622B9625900826F1C /* alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22762F1522B9625900826F1C /* alert.swift */; };
+		22762F1822B9649500826F1C /* ProteinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22762F1722B9649500826F1C /* ProteinListViewController.swift */; };
+		22762F1A22B964DB00826F1C /* ProteinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22762F1922B964DB00826F1C /* ProteinViewController.swift */; };
+		22762F1D22B96C5500826F1C /* TouchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22762F1C22B96C5500826F1C /* TouchIDViewController.swift */; };
+		9F82523722C4F10900E21097 /* Ligands.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F82523522C4F10900E21097 /* Ligands.xcdatamodeld */; };
+		9F9ADA1522BA288500F52A84 /* Molecule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9ADA1422BA288500F52A84 /* Molecule.swift */; };
+		D94212EF22C4AC3600ACA094 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94212EE22C4AC3600ACA094 /* API.swift */; };
+		D9AA8B3722B3CCE90059D4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA8B3622B3CCE90059D4CC /* AppDelegate.swift */; };
+		D9AA8B3E22B3CCE90059D4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AA8B3C22B3CCE90059D4CC /* Main.storyboard */; };
+		D9AA8B4022B3CCE90059D4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AA8B3F22B3CCE90059D4CC /* Assets.xcassets */; };
+		D9AA8B4B22B3CEE70059D4CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA8B4A22B3CEE70059D4CC /* LoginViewController.swift */; };
+		D9E1387822CF971E00B075EA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E1387722CF971E00B075EA /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220B2B5322C8B3650008EEAB /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		220C62AF22BE72EF002F2FBC /* ligands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ligands.txt; sourceTree = "<group>"; };
+		220C62B122BE7D17002F2FBC /* ProteinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinTableViewCell.swift; sourceTree = "<group>"; };
+		22762F1522B9625900826F1C /* alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert.swift; sourceTree = "<group>"; };
+		22762F1722B9649500826F1C /* ProteinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinListViewController.swift; sourceTree = "<group>"; };
+		22762F1922B964DB00826F1C /* ProteinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinViewController.swift; sourceTree = "<group>"; };
+		22762F1C22B96C5500826F1C /* TouchIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDViewController.swift; sourceTree = "<group>"; };
+		9F40EE5622C4F8DA00250836 /* Ligands v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Ligands v4.xcdatamodel"; sourceTree = "<group>"; };
+		9F5CD53B22C4FB1D0002AE7F /* Ligands v5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Ligands v5.xcdatamodel"; sourceTree = "<group>"; };
+		9F82523622C4F10900E21097 /* Ligands.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ligands.xcdatamodel; sourceTree = "<group>"; };
+		9F82523822C4F13B00E21097 /* Ligands v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Ligands v2.xcdatamodel"; sourceTree = "<group>"; };
+		9F9ADA1422BA288500F52A84 /* Molecule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Molecule.swift; sourceTree = "<group>"; };
+		9FEBAE6C22C4F7B300ADE8CB /* Ligands v3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Ligands v3.xcdatamodel"; sourceTree = "<group>"; };
+		D94212EE22C4AC3600ACA094 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D9AA8B3322B3CCE90059D4CC /* Swifty Protein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty Protein.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AA8B3622B3CCE90059D4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9AA8B3D22B3CCE90059D4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9AA8B3F22B3CCE90059D4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9AA8B4422B3CCE90059D4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AA8B4A22B3CEE70059D4CC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D9E1387722CF971E00B075EA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9AA8B3022B3CCE90059D4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22762F1B22B9651B00826F1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22762F1722B9649500826F1C /* ProteinListViewController.swift */,
+				22762F1922B964DB00826F1C /* ProteinViewController.swift */,
+				D9AA8B4A22B3CEE70059D4CC /* LoginViewController.swift */,
+				22762F1C22B96C5500826F1C /* TouchIDViewController.swift */,
+				220C62B122BE7D17002F2FBC /* ProteinTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F9ADA1322BA282D00F52A84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F9ADA1422BA288500F52A84 /* Molecule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D94212ED22C4AB6700ACA094 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				9F82523522C4F10900E21097 /* Ligands.xcdatamodeld */,
+				D94212EE22C4AC3600ACA094 /* API.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		D9AA8B2A22B3CCE90059D4CC = {
+			isa = PBXGroup;
+			children = (
+				D9AA8B3522B3CCE90059D4CC /* Swifty Protein */,
+				D9AA8B3422B3CCE90059D4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9AA8B3422B3CCE90059D4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA8B3322B3CCE90059D4CC /* Swifty Protein.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9AA8B3522B3CCE90059D4CC /* Swifty Protein */ = {
+			isa = PBXGroup;
+			children = (
+				D94212ED22C4AB6700ACA094 /* Core Data */,
+				22762F1B22B9651B00826F1C /* Controller */,
+				D9AA8B3622B3CCE90059D4CC /* AppDelegate.swift */,
+				9F9ADA1322BA282D00F52A84 /* Models */,
+				22762F1522B9625900826F1C /* alert.swift */,
+				220B2B5322C8B3650008EEAB /* SpinnerView.swift */,
+				D9AA8B3C22B3CCE90059D4CC /* Main.storyboard */,
+				D9E1387722CF971E00B075EA /* Launch Screen.storyboard */,
+				D9AA8B3F22B3CCE90059D4CC /* Assets.xcassets */,
+				D9AA8B4422B3CCE90059D4CC /* Info.plist */,
+				220C62AF22BE72EF002F2FBC /* ligands.txt */,
+			);
+			path = "Swifty Protein";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9AA8B3222B3CCE90059D4CC /* Swifty Protein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AA8B4722B3CCE90059D4CC /* Build configuration list for PBXNativeTarget "Swifty Protein" */;
+			buildPhases = (
+				D9AA8B2F22B3CCE90059D4CC /* Sources */,
+				D9AA8B3022B3CCE90059D4CC /* Frameworks */,
+				D9AA8B3122B3CCE90059D4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swifty Protein";
+			productName = "Swifty Protein";
+			productReference = D9AA8B3322B3CCE90059D4CC /* Swifty Protein.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9AA8B2B22B3CCE90059D4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Morgane DUBUS";
+				TargetAttributes = {
+					D9AA8B3222B3CCE90059D4CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D9AA8B2E22B3CCE90059D4CC /* Build configuration list for PBXProject "Swifty Protein" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9AA8B2A22B3CCE90059D4CC;
+			productRefGroup = D9AA8B3422B3CCE90059D4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9AA8B3222B3CCE90059D4CC /* Swifty Protein */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9AA8B3122B3CCE90059D4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA8B4022B3CCE90059D4CC /* Assets.xcassets in Resources */,
+				D9AA8B3E22B3CCE90059D4CC /* Main.storyboard in Resources */,
+				D9E1387822CF971E00B075EA /* Launch Screen.storyboard in Resources */,
+				220C62B022BE72EF002F2FBC /* ligands.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9AA8B2F22B3CCE90059D4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA8B4B22B3CEE70059D4CC /* LoginViewController.swift in Sources */,
+				22762F1D22B96C5500826F1C /* TouchIDViewController.swift in Sources */,
+				22762F1A22B964DB00826F1C /* ProteinViewController.swift in Sources */,
+				220C62B222BE7D17002F2FBC /* ProteinTableViewCell.swift in Sources */,
+				D94212EF22C4AC3600ACA094 /* API.swift in Sources */,
+				9F82523722C4F10900E21097 /* Ligands.xcdatamodeld in Sources */,
+				22762F1622B9625900826F1C /* alert.swift in Sources */,
+				9F9ADA1522BA288500F52A84 /* Molecule.swift in Sources */,
+				D9AA8B3722B3CCE90059D4CC /* AppDelegate.swift in Sources */,
+				220B2B5422C8B3650008EEAB /* SpinnerView.swift in Sources */,
+				22762F1822B9649500826F1C /* ProteinListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9AA8B3C22B3CCE90059D4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9AA8B3D22B3CCE90059D4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9AA8B4522B3CCE90059D4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9AA8B4622B3CCE90059D4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9AA8B4822B3CCE90059D4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swifty Protein/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mdubus.Swifty-Protein";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9AA8B4922B3CCE90059D4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swifty Protein/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mdubus.Swifty-Protein";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9AA8B2E22B3CCE90059D4CC /* Build configuration list for PBXProject "Swifty Protein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AA8B4522B3CCE90059D4CC /* Debug */,
+				D9AA8B4622B3CCE90059D4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AA8B4722B3CCE90059D4CC /* Build configuration list for PBXNativeTarget "Swifty Protein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AA8B4822B3CCE90059D4CC /* Debug */,
+				D9AA8B4922B3CCE90059D4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F82523522C4F10900E21097 /* Ligands.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F5CD53B22C4FB1D0002AE7F /* Ligands v5.xcdatamodel */,
+				9F40EE5622C4F8DA00250836 /* Ligands v4.xcdatamodel */,
+				9FEBAE6C22C4F7B300ADE8CB /* Ligands v3.xcdatamodel */,
+				9F82523822C4F13B00E21097 /* Ligands v2.xcdatamodel */,
+				9F82523622C4F10900E21097 /* Ligands.xcdatamodel */,
+			);
+			currentVersion = 9F5CD53B22C4FB1D0002AE7F /* Ligands v5.xcdatamodel */;
+			path = Ligands.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9AA8B2B22B3CCE90059D4CC /* Project object */;
+}
